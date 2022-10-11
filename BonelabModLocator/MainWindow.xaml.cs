@@ -65,7 +65,7 @@ namespace BonelabModLocator
         public MainWindow()
         {
             InitializeComponent();
-            
+
             if (!IsAdministrator())
             {
                 System.Windows.Forms.MessageBox.Show("Программа требует запуска от имени администратора!" +
@@ -119,13 +119,20 @@ namespace BonelabModLocator
             if (!IsExistBackup || !Directory.Exists(targetModsPath) || !IsDirectoryEmpty(targetModsPath))
                 return false;
 
-            Directory.Delete(GetInitialModsPath(), true);
+            Directory.Move(GetInitialModsPath(), GetInitialModsPath() + "back");
             CopyDirectory(backupModsPath, targetModsPath);
 
             var isSuccess = CreateSymbolicLink(GetInitialModsPath(), targetModsPath, SymbolicLink.Directory);
 
             if (isSuccess)
+            {
+                Directory.Delete(GetInitialModsPath() + "back", true);
                 Directory.Delete(backupModsPath, true);
+            }
+            else
+            {
+                Directory.Move(GetInitialModsPath() + "back", GetInitialModsPath());
+            }
 
             return isSuccess;
         }

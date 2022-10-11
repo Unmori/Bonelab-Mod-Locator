@@ -16,7 +16,6 @@ C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\obj\Release\B
 C:\Workspace\BonelabModLocator\BonelabModLocator\bin\Release\BonelabModLocator.exe.config
 C:\Workspace\BonelabModLocator\BonelabModLocator\bin\Release\BonelabModLocator.exe
 C:\Workspace\BonelabModLocator\BonelabModLocator\bin\Release\BonelabModLocator.pdb
-C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Release\BonelabModLocator.csproj.AssemblyReference.cache
 C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Release\MainWindow.g.cs
 C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Release\App.g.cs
 C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Release\BonelabModLocator_MarkupCompile.cache
