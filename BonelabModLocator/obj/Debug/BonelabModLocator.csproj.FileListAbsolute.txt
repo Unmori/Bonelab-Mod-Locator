@@ -1,0 +1,14 @@
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\bin\Debug\BonelabModLocator.exe.config
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\bin\Debug\BonelabModLocator.exe
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\bin\Debug\BonelabModLocator.pdb
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\obj\Debug\MainWindow.g.cs
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\obj\Debug\App.g.cs
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\obj\Debug\BonelabModLocator_MarkupCompile.cache
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\obj\Debug\BonelabModLocator_MarkupCompile.lref
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\obj\Debug\MainWindow.baml
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\obj\Debug\BonelabModLocator.g.resources
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\obj\Debug\BonelabModLocator.Properties.Resources.resources
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\obj\Debug\BonelabModLocator.csproj.GenerateResource.cache
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\obj\Debug\BonelabModLocator.csproj.CoreCompileInputs.cache
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\obj\Debug\BonelabModLocator.exe
+C:\Workspace\BonelabModLocator\BonelabModLocator\BonelabModLocator\obj\Debug\BonelabModLocator.pdb
