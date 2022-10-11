@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Runtime.InteropServices;
 using System.Security.Principal;
 using System.Windows;
@@ -46,7 +47,7 @@ namespace BonelabModLocator
             foreach (FileInfo file in dir.GetFiles())
             {
                 string targetFilePath = Path.Combine(destinationDir, file.Name);
-                file.CopyTo(targetFilePath);
+                file.CopyTo(targetFilePath, true);
             }
 
             // If recursive and copying subdirectories, recursively call this method
@@ -64,7 +65,7 @@ namespace BonelabModLocator
         public MainWindow()
         {
             InitializeComponent();
-
+            
             if (!IsAdministrator())
             {
                 System.Windows.Forms.MessageBox.Show("Программа требует запуска от имени администратора!" +
@@ -115,7 +116,7 @@ namespace BonelabModLocator
 
         private bool CreateSymlink(string backupModsPath, string targetModsPath)
         {
-            if (!IsExistBackup || !Directory.Exists(targetModsPath))
+            if (!IsExistBackup || !Directory.Exists(targetModsPath) || !IsDirectoryEmpty(targetModsPath))
                 return false;
 
             Directory.Delete(GetInitialModsPath(), true);
@@ -123,7 +124,7 @@ namespace BonelabModLocator
 
             var isSuccess = CreateSymbolicLink(GetInitialModsPath(), targetModsPath, SymbolicLink.Directory);
 
-            if(isSuccess)
+            if (isSuccess)
                 Directory.Delete(backupModsPath, true);
 
             return isSuccess;
@@ -158,6 +159,11 @@ namespace BonelabModLocator
             }
 
             return null;
+        }
+
+        public bool IsDirectoryEmpty(string path)
+        {
+            return !Directory.EnumerateFileSystemEntries(path).Any();
         }
 
         public static bool IsAdministrator()
