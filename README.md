@@ -5,7 +5,7 @@ Bonelab Mod Locator is locating your mod folder to you choosing another director
 
 This program uses symlink to create a directory shortcut to the internal folder of Bonelab mods. The program creates an intermediate backup of your mods and moves them to the directory of your choice.
 
-## Backup ###
+### Backup ###
 Backup folder: C:\Users\<Username>\AppData\Local\Temp\BonelabModsBackup
 
 ## requires ##
