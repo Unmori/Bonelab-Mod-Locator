@@ -27,3 +27,4 @@ C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Release\BonelabModLocator.c
 C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Release\BonelabModLocator.csproj.CoreCompileInputs.cache
 C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Release\BonelabModLocator.exe
 C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Release\BonelabModLocator.pdb
+C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Release\BonelabModLocator.csproj.AssemblyReference.cache

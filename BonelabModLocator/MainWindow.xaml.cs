@@ -68,8 +68,8 @@ namespace BonelabModLocator
 
             if (!IsAdministrator())
             {
-                System.Windows.Forms.MessageBox.Show("Программа требует запуска от имени администратора!" +
-                    "\n Перезапустите программу и повторите попытку.");
+                System.Windows.Forms.MessageBox.Show("Program requires running as an administrator!" +
+                    "\nRestart the program and try again.");
                 Close();
             }
         }
@@ -83,10 +83,9 @@ namespace BonelabModLocator
             {
                 IsCanProcessSymlinkLocation = true;
                 DirectoryPathBox.Text = targetBonelabModsPath;
-                System.Windows.Forms.MessageBox.Show("Каталог выбран успешно!");
             }
             else
-                System.Windows.Forms.MessageBox.Show("Ошибка выбора каталога. Каталога не существует или он пустой!");
+                System.Windows.Forms.MessageBox.Show("Directory selection error. The directory does not exist or it is empty!");
         }
 
         private void bthSaveLocationEvent(object sender, RoutedEventArgs e)
@@ -101,9 +100,9 @@ namespace BonelabModLocator
             }
 
             if (isSuccess)
-                System.Windows.Forms.MessageBox.Show($"Перенаправление папки модов на папку {targetBonelabModsPath} создано успешно!");
+                System.Windows.Forms.MessageBox.Show($"Redirect mods folder to a folder {targetBonelabModsPath} created successfully!");
             else
-                System.Windows.Forms.MessageBox.Show($"Перенаправление папки модов не завершено. \n Попробуйте ещё раз!");
+                System.Windows.Forms.MessageBox.Show($"Redirect mods folder is not completed. \nTry again!");
         }
 
         private void bthExitEvent(object sender, RoutedEventArgs e)

@@ -26,3 +26,4 @@ C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Debug\BonelabModLocator.csp
 C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Debug\BonelabModLocator.csproj.CoreCompileInputs.cache
 C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Debug\BonelabModLocator.exe
 C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Debug\BonelabModLocator.pdb
+C:\Workspace\BonelabModLocator\BonelabModLocator\obj\Debug\BonelabModLocator.csproj.AssemblyReference.cache

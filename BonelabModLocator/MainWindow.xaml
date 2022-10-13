@@ -34,7 +34,7 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
-            <TextBox Grid.Row="0" Grid.Column="0" x:Name="DirectoryPathBox" Margin="10 5" Padding="5" Background="Black" TextAlignment="Left" VerticalAlignment="Center" FontSize="14" Text="Нажмите для выбора каталога модов" FontWeight="SemiBold" PreviewMouseLeftButtonUp="Button_ChooseFolder" IsReadOnly="True" Foreground="White" BorderBrush="{x:Null}" OpacityMask="#CC000000" />
+            <TextBox Grid.Row="0" Grid.Column="0" x:Name="DirectoryPathBox" Margin="10 5" Padding="5" Background="Black" TextAlignment="Left" VerticalAlignment="Center" FontSize="14" Text="Click to select a custom mods catalog" FontWeight="SemiBold" PreviewMouseLeftButtonUp="Button_ChooseFolder" IsReadOnly="True" Foreground="White" BorderBrush="{x:Null}" OpacityMask="#CC000000" />
         </Grid>
         <Grid Grid.Row="2">
             <Grid.RowDefinitions>
@@ -45,8 +45,8 @@
                 <ColumnDefinition Width="1*" />
                 <ColumnDefinition Width="170" />
             </Grid.ColumnDefinitions>
-            <Button Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" Padding="35 2" Margin="10 0" x:Name="bthExit" FontSize="16" Content="Выйти" Click="bthExitEvent" Background="Black" BorderBrush="{x:Null}" Foreground="White" OpacityMask="#CC000000" />
-            <Button Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="16 2" Margin="8 0" x:Name="bthSaveLocation" FontSize="16" Content="Перенаправить" Click="bthSaveLocationEvent" Background="Black" BorderBrush="{x:Null}" Foreground="White" OpacityMask="#CC000000" />
+            <Button Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" Padding="35 2" Margin="10 0" x:Name="bthExit" FontSize="16" Content="Exit" Click="bthExitEvent" Background="Black" BorderBrush="{x:Null}" Foreground="White" OpacityMask="#CC000000" />
+            <Button Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="16 2" Margin="8 0" x:Name="bthSaveLocation" FontSize="16" Content="Redirect" Click="bthSaveLocationEvent" Background="Black" BorderBrush="{x:Null}" Foreground="White" OpacityMask="#CC000000" />
         </Grid>
     </Grid>
 </Window>
