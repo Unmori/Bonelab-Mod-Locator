@@ -8,7 +8,7 @@ This program uses symlink to create a directory shortcut to the internal folder 
 ## Backup ##
 Backup folder: C:\Users\<Username>\AppData\Local\Temp\BonelabModsBackup
 
-## requires ##
+## Requires ##
 Administrator rights!!!
 
 ![Alt text](example.jpg?raw=true "Example")
